@@ -1,7 +1,7 @@
 # NOTE: update this with your service name
 service: notes-app-api
 
-# Create an optimized package for our functions 
+# Create an optimized package for our functions
 package:
   individually: true
 
@@ -21,7 +21,7 @@ provider:
   # commit your .env.
   #
   environment:
-   tableName: notes
+    tableName: notes
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access DynamoDB.
